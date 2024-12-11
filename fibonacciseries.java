@@ -3,6 +3,14 @@ public class fibonacciseries {
  {
     if((n==0)||(n==1))
     {
-        
+        return 1;
     } 
+  return fib(n-1)+fib(n-2);
 }
+public static void main(String args[])
+{
+    int res=fib(7);
+    System.out.println(res);
+}
+}
+
